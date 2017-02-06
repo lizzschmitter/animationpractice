@@ -1,0 +1,86 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+#grid_container {
+	width: 200px;
+	height: 100px;
+	position: relative;
+	left: 50%;
+	top: 48%; /* for optical centering */
+	margin-top: -50px;
+	margin-left: -100px;
+}
+
+.mono {
+	font-family: 'Fjalla One';
+	font-size: 6em;
+	float: left;
+	margin-left: 5px;
+    
+}
+
+    
+    
+    
+@-webkit-keyframes p_move {
+    0% { top: 0px; left: 0px; color: crimson; }
+    100% { top: 150px; left: 155px; color: darkturquoise }
+    } 
+    
+#p {
+    position: relative;
+    -webkit-animation: p_move 3.5s linear forwards;
+} 
+
+@-webkit-keyframes o1_move {
+    0% { top: 0px; left: 0px; color: crimson; }
+    100% { top: 150px; left: 0px; color: darkturquoise; }
+}
+
+#o1 {
+    position: relative;
+    -webkit-animation: o1_move 3.5s linear forwards;
+}
+
+@-webkit-keyframes o2_move {
+    0% { top: 0px; left: 0px; color: crimson; }
+    100% { top: 150px; left: 0px; color: darkturquoise; }
+}
+
+#o2 {
+    position: relative;
+    -webkit-animation: o1_move 3.5s linear forwards;
+}
+
+@-webkit-keyframes d_move {
+    0% { top: 0px; left: 0px; color: crimson; }
+    100% { top: 150px; left: 95px; color: darkturquoise; }
+}
+
+#d {
+    position: relative;
+    -webkit-animation: d_move 3.5s linear forwards;
+}
+
+@-webkit-keyframes l_move {
+    0% { top: 0px; left: 0px; color: crimson; }
+    100% { top: 150px; left: -210px; color: darkturquoise; }
+}
+
+#l {
+    position: relative;
+    -webkit-animation: l_move 3.5s linear forwards;
+}
+
+@-webkit-keyframes e_move {
+    0% { top: 0px; left: 0px; color: crimson; }
+    100% { top: 150px; left: -50px; color: darkturquoise; }
+}
+
+#e {
+    position: relative;
+    -webkit-animation: e_move 3.5s linear forwards;
+}
+
